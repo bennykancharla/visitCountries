@@ -1,0 +1,36 @@
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #334155;
+  background-color: #1f1f2f;
+  margin: 0px;
+}
+
+.list-name {
+  color: #f8fafc;
+  font-size: 17px;
+  margin-left: 15px;
+}
+
+.visitedBtn {
+  font-size: 16px;
+  font-weight: 600;
+  width: 100px;
+  color: #f1f5f9;
+  background-color: #3b82f6;
+  border: 0px;
+  border-radius: 8px;
+  padding: 10px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.isActive {
+  margin-right: 38px;
+  color: #94a3b8;
+  background-color: transparent;
+}
